@@ -1,8 +1,0 @@
-C:\Users\santy\source\repos\EscrituraArchivos\EscrituraArchivos\bin\Debug\EscrituraArchivos.exe.config
-C:\Users\santy\source\repos\EscrituraArchivos\EscrituraArchivos\bin\Debug\EscrituraArchivos.exe
-C:\Users\santy\source\repos\EscrituraArchivos\EscrituraArchivos\bin\Debug\EscrituraArchivos.pdb
-C:\Users\santy\source\repos\EscrituraArchivos\EscrituraArchivos\obj\Debug\EscrituraArchivos.csproj.AssemblyReference.cache
-C:\Users\santy\source\repos\EscrituraArchivos\EscrituraArchivos\obj\Debug\EscrituraArchivos.csproj.SuggestedBindingRedirects.cache
-C:\Users\santy\source\repos\EscrituraArchivos\EscrituraArchivos\obj\Debug\EscrituraArchivos.csproj.CoreCompileInputs.cache
-C:\Users\santy\source\repos\EscrituraArchivos\EscrituraArchivos\obj\Debug\EscrituraArchivos.exe
-C:\Users\santy\source\repos\EscrituraArchivos\EscrituraArchivos\obj\Debug\EscrituraArchivos.pdb
