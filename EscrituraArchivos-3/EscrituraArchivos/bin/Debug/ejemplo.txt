@@ -1,0 +1,6 @@
+Nombre		Apellidos			Carrera				N.Control
+Luis Fernando	Perez Juarez	Ing.Sistemas Computacionales	21256322
+Nombre		Apellidos			Carrera				N.Control
+Santy Francisco	Martinez Castellanos	Ing. Sistemas Computacionales	21211989
+Nombre		Apellidos			Carrera				N.Control
+Elvis Ricardo	Monterrosa Lopez	Ing. Sistemas Computacionales	21258645
