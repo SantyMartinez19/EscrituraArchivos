@@ -26,6 +26,15 @@ namespace EscrituraArchivos
             this.carrera = carrera;
             this.numerocontrol = numerocontrol;
         }
+        
+         public void Muestra()
+        {
+            Console.WriteLine("~~Datos a Guardar~~");
+            Console.WriteLine("Nombre: {0}", nombre);
+            Console.WriteLine("Apellidos: {0}", apellidos);
+            Console.WriteLine("Carrera: {0}", carrera);
+            Console.WriteLine("Numero de control: {0}", numerocontrol);
+        }
   
 
     }
@@ -55,7 +64,11 @@ namespace EscrituraArchivos
             Console.Clear();
 
             DatosControl da = new DatosControl(nombre, apellidos, carrera, numerocontrol);
-
+            
+            da.Muestra();
+            Console.ReadKey();
+            Console.Clear();
+            
             StreamWriter sw = new StreamWriter("ejemplo.txt", true);
             // si el archivo no existe -- lo creara
             // si ya existe, escribira en el
