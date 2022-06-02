@@ -66,6 +66,7 @@ namespace EscrituraArchivos
             DatosControl da = new DatosControl(nombre, apellidos, carrera, numerocontrol);
             
             da.Muestra();
+            Console.WriteLine("Presione enter");
             Console.ReadKey();
             Console.Clear();
             
@@ -74,19 +75,9 @@ namespace EscrituraArchivos
             // si ya existe, escribira en el
             //true es para agregar y no sobreescribir
 
-            string[] lines = {
-                
-                "Nombre" + "\t\t" + "Apellidos" + "\t\t\t" + "Carrera" + "\t\t\t\t" + "N.Control",
-
-                nombre+"\t"+apellidos+"\t"+carrera+"\t"+numerocontrol
-                
-            };
-
-            //Recorre el arreglo
-            foreach(string line in lines)
-            {
-                sw.WriteLine(line);
-            }
+            
+            sw.WriteLine("Nombre" + "\t\t" + "Apellidos" + "\t\t\t" + "Carrera" + "\t\t\t\t" + "N.Control");
+            sw.WriteLine(nombre+"\t"+apellidos+"\t"+carrera+"\t"+numerocontrol);
 
             sw.Close();
 
